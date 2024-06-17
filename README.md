@@ -130,3 +130,21 @@ print(data[['Fuel_Price', 'Weekly_Sales', 'CPI', 'Unemployment']].corr())
 fuel_price_correlation = data[['Fuel_Price', 'Weekly_Sales', 'CPI', 'Unemployment']].corr()
 print(fuel_price_correlation)
 ```
+
+## Conclusion
+
+In this Walmart Sales Project, I performed a comprehensive data cleaning and analysis to gain insights into various factors affecting Walmart's weekly sales. Here are the key findings and conclusions:
+
+1. Holidays Affecting Sales:
+   - Certain holidays significantly impact weekly sales, with some holidays showing a notable increase in sales. This insight helps in planning inventory and marketing strategies around these peak times.
+
+2. Unemployment Rates by Store:
+   - I identified the stores with the lowest and highest unemployment rates. This information can be valuable for understanding the economic conditions of different regions and tailoring store operations accordingly.
+
+3. Correlation Between CPI and Weekly Sales:
+   - Overall, there is a correlation between the Consumer Price Index (CPI) and weekly sales. However, this correlation varies when considering holiday periods versus non-holiday periods. Such analysis is crucial for understanding how economic indicators influence sales during different times of the year.
+
+4. Fuel Price Analysis:
+   - The dataset includes fuel prices, which were analyzed over time. Although the direct impact of fuel prices on weekly sales might not be immediately apparent, understanding fuel price trends can provide context for consumer spending behavior and cost management.
+
+Through this project, I demonstrated the importance of data cleaning and the value of detailed analysis in deriving actionable business insights. These findings can assist Walmart in optimizing its operations, planning marketing campaigns, and improving overall sales strategies based on economic indicators and seasonal trends.
